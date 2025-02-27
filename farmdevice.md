@@ -1,9 +1,9 @@
-Berikut adalah rangkaian komponen-komponen perangkat tersebut:
+The following is a series of components of the device:
 
 ![perangkat](https://i.imgur.com/bA2TBlj.png)
 
-Cara kerja perangkat:
-1. LCD 16x2 akan menampilkan timer mengenai kapan perangkat tersebut akan terbuka sehingga makanan yang ada di dalam perangkat akan keluar
-2. Ketika waktu pada timer telah menunjukkan angka 0, servo akan berputar 180 derajat yang menandakan bahwa perangkat tersebut telah terbuka
-3. Servo akan berputar lagi menuju sudut 0 derajat yang menandakan bahwa perangkat tersebut telah tertutup lagi
-4. Timer akan ter-<i>reset</i> menjadi 5 detik kembali (asumsikan 5 jam)
+How the device works:
+1. The 16x2 LCD will display a timer indicating when the device will open, allowing the food inside the device to be released.
+2. When the timer reaches 0, the servo will rotate 180 degrees, indicating that the device has opened.
+3. The servo will then rotate back to 0 degrees, indicating that the device has closed again.
+4. The timer will be reset to 5 seconds again (assuming 5 hours).
